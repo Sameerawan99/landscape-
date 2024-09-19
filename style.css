@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    justify-content: space-between;
+}
+
+.header-left{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left img{
+    /* width: 100%; */
+    margin-right: 1px;
+}
+.products{
+    display: flex;
+   
+
+}
+.products>ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.products>ul>li{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;    
+}
+
+.header-right{
+    width: 45%;
+     display: flex;
+     align-items: center;
+     margin-right:5px ;
+     justify-content: space-between;
+}
+.header-right form{
+    width: 70%;
+    display: flex;
+    border:1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.header-right input{
+    width: 90%;
+    border: none;
+}
+.header-right button{
+    width: 10%;
+    border: none;
+    background-color: transparent;
+}
+
+.profile>ul{
+    display: flex;
+    align-items: center;
+    gap:15px;
+   
+    
+
+}
+.profile ul li{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+
+.banner{
+    width: 100%;
+    margin-top: 50px;
+}
+.banner img{
+    width: 100%;
+}
+
+.brandsection{
+    /* width:100% ; */
+    padding: 80px 0px;
+    
+}
+.brandsection h2{
+     font-size: 30px;
+   padding-left: 20px;
+   font-weight: bold;
+   
+     
+
+}
+.branditem{
+    
+    box-shadow: 0px 0px 10px 2px #ccc ;
+    margin-top:  8%;
+   
+    
+   /* justify-content: center; */
+     
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+   gap: 20px;
+   
+    .cat:hover{
+        transform: scale(1.1);
+        transition: 2s;
+        
+    }
+
+    
+    
+
+
+
+.branditem img{
+    cursor: pointer;
+    
+   
+}
+/* .branditem:hover{
+    transform: scale(1.1);
+    transition: 2s; */
+   
+        
+}
+.brandsection h2:hover{
+    color: red;
+    transition: 1s;
+    cursor: pointer;
+    /* transform:scale(1.1); */
+
+}
+
+.catogry{
+    width: 100%;
+    padding: 50px 0px;
+}
+.catogry h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+
+.catogry-shop{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 20px;
+    
+    
+    
+    
+}
+.items{
+    width: 15%;
+    margin: 1px;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    cursor: pointer;
+    
+}
+.items img{
+    margin-top: 50px;
+    
+    
+}
+.items:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.footer{
+    /* width: 100%;
+    background-color: #FAFBFC; */
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  color: #333;
+}
+/* .online{
+    text-transform: none;
+    text-decoration: none;
+    display: flex;
+
+     padding: 0px 10%;
+     gap: 50px;
+
+
+
+ }
+ .online ul{
+    padding: 30px 0px;
+    margin-right: 50px;
+ }
+
+ 
+ 
+.online h3{
+    text-transform: capitalize;
+    font-weight:bold ;
+}
+.customer h3 {
+    display: flex;
+}
+
+.direct{
+
+    padding: 10px 11%;
+}
+.services{
+    padding: 0px 25%;
+    margin-bottom: 5%;
+} */
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .app-store {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .app-store img {
+    width: 150px;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-media img {
+    width: 30px;
+  }
+  
+  .original-guarantee {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .original-guarantee img {
+    width: 50px;
+  }
+  
+  .return-policy {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .return-policy img {
+    width: 50px;
+  }
+  
+  .return-policy span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
